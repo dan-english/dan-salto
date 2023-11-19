@@ -3,6 +3,7 @@ envs {
     {
       name = "dev"
       accountToServiceName = {
+        salesforce = "salesforce"
       }
     },
   ]
