@@ -92,5 +92,6 @@ type salesforce.Lead {
       externalId = false
       unique = false
       createable = true
+      businessStatus = "Active"
   }
 }
