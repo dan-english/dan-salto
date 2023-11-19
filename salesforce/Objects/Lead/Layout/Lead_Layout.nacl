@@ -33,10 +33,6 @@ salesforce.Layout Lead_Lead_Layout@bs {
             },
             {
               behavior = "Edit"
-              field = salesforce.Lead.field.LeadScore__c
-            },
-            {
-              behavior = "Edit"
               field = salesforce.Lead.field.CampaignId
             },
             {

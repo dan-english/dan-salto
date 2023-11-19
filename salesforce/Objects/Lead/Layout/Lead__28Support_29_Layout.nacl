@@ -32,10 +32,6 @@ salesforce.Layout Lead_Lead__28Support_29_Layout@bspps {
               field = salesforce.Lead.field.LeadSource
             },
             {
-              behavior = "Edit"
-              field = salesforce.Lead.field.LeadScore__c
-            },
-            {
               behavior = "Required"
               field = salesforce.Lead.field.Status
             },

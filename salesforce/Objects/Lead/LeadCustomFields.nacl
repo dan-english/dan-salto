@@ -82,15 +82,5 @@ type salesforce.Lead {
     queryable = true
   }
 
-  salesforce.Number LeadScore__c {
-    apiName = "Lead.LeadScore__c"
-    label = "Lead Score"
-    precision = 3
-    scale = 0
-    updateable = true
-    queryable = true
-    externalId = false
-    unique = false
-    createable = true
-  }
+  
 }
