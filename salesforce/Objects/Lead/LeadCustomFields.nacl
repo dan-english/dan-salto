@@ -93,5 +93,6 @@ type salesforce.Lead {
       unique = false
       createable = true
       businessStatus = "Active"
+      defaultValueFormula = "51"
   }
 }
