@@ -87,5 +87,7 @@ type salesforce.Lead {
     label = "Lead Score"
     precision = 3
     scale = 0
+    updateable = true
+    queryable = true
   }
 }
