@@ -1,0 +1,5 @@
+workspace {
+  uid = "6f6e7c84-a1d3-4658-aace-8d40d62023eb"
+  name = "salesforece-exercise"
+  staleStateThresholdMinutes = undefined
+}
