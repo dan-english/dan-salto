@@ -89,5 +89,8 @@ type salesforce.Lead {
     scale = 0
     updateable = true
     queryable = true
+    externalId = false
+    unique = false
+    createable = true
   }
 }

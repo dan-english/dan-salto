@@ -13,4 +13,15 @@ salesforce.ListView Lead_AllOpenLeads {
     salesforce.Lead,
   ]
   _alias = "All Open Leads"
+  columns = [
+    "FULL_NAME",
+    "LEAD.COMPANY",
+    "LEAD.STATE",
+    "LEAD.EMAIL",
+    "LeadScore__c",
+    "LEAD.STATUS",
+    "LEAD.CREATED_DATE",
+    "CORE.USERS.ALIAS",
+    "LEAD.UNREAD",
+  ]
 }

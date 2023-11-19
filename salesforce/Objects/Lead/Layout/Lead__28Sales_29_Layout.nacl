@@ -33,6 +33,10 @@ salesforce.Layout Lead_Lead__28Sales_29_Layout@bspps {
             },
             {
               behavior = "Edit"
+              field = salesforce.Lead.field.LeadScore__c
+            },
+            {
+              behavior = "Edit"
               field = salesforce.Lead.field.CampaignId
             },
             {
@@ -271,39 +275,34 @@ salesforce.Layout Lead_Lead__28Sales_29_Layout@bspps {
         sortOrder = 16
       },
       {
-        actionName = "SendEmail"
+        actionName = "Clone"
         actionType = "StandardButton"
         sortOrder = 17
       },
       {
-        actionName = "Clone"
+        actionName = "Delete"
         actionType = "StandardButton"
         sortOrder = 18
       },
       {
-        actionName = "Delete"
+        actionName = "Submit"
         actionType = "StandardButton"
         sortOrder = 19
       },
       {
-        actionName = "Submit"
-        actionType = "StandardButton"
-        sortOrder = 20
-      },
-      {
         actionName = "CallHighlightAction"
         actionType = "ProductivityAction"
-        sortOrder = 21
+        sortOrder = 20
       },
       {
         actionName = "SmsHighlightAction"
         actionType = "ProductivityAction"
-        sortOrder = 22
+        sortOrder = 21
       },
       {
         actionName = "EmailHighlightAction"
         actionType = "ProductivityAction"
-        sortOrder = 23
+        sortOrder = 22
       },
     ]
   }
@@ -405,7 +404,7 @@ salesforce.Layout Lead_Lead__28Sales_29_Layout@bspps {
   showRunAssignmentRulesCheckbox = true
   showSubmitAndAttachButton = false
   summaryLayout = {
-    masterLabel = "00h1a0000012AHB"
+    masterLabel = "00hQH000000I4tU"
     sizeX = 4
     sizeY = 0
     summaryLayoutStyle = "Default"
