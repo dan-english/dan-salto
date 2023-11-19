@@ -29,6 +29,10 @@ salesforce.Layout Lead_Lead__28Sales_29_Layout@bspps {
             },
             {
               behavior = "Edit"
+              field = salesforce.Lead.field.LeadScore__c
+            },
+            {
+              behavior = "Edit"
               field = salesforce.Lead.field.LeadSource
             },
             {

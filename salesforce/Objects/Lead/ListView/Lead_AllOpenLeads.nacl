@@ -18,6 +18,7 @@ salesforce.ListView Lead_AllOpenLeads {
     "LEAD.COMPANY",
     "LEAD.STATE",
     "LEAD.EMAIL",
+    "LeadScore__c",
     "LEAD.STATUS",
     "LEAD.CREATED_DATE",
     "CORE.USERS.ALIAS",
